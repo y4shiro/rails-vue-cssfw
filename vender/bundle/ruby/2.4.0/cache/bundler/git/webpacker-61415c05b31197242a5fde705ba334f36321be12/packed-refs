@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled 
+814cabae36da6ec5b55291e7b55db08ad8e6b839 refs/heads/master
+1bc83f06734c9369a96d609f77aa71be0487faff refs/heads/webpack2
+5583a269e354cb81291dbc356eccbf647c8a0cdb refs/tags/v1.0.0
+^47e935c3679348bf5c26ea0400e8d90330ff1209
+3c488f9f4022735a37093a1c1718eb9a7d720102 refs/tags/v1.1.0
