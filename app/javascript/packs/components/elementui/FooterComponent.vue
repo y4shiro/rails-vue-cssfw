@@ -1,24 +1,18 @@
 <template>
   <div>
+    <div>copyright</div>
+    <div>links</div>
     <p>{{ message }}</p>
-    <card></card>
-    <card></card>
-    <card></card>
   </div>
 </template>
 
 <script>
-import Card from './Card.vue'
-
 export default {
-  name: 'Contents',
+  name: 'FooterComponent',
   data: function () {
     return {
-      message: "Contents.vue"
+      message: "FooterComponent.vue"
     }
-  },
-  components: {
-    Card
   }
 }
 </script>

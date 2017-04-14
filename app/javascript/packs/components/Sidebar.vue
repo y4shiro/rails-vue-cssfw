@@ -1,6 +1,9 @@
 <template>
   <div>
     <p>{{ message }}</p>
+    <el-button v-for="o in 10">
+      {{ 'List item' + o }}
+    </el-button>
   </div>
 </template>
 
