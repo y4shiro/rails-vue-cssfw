@@ -6,6 +6,7 @@
 
 # Ignore bundler config.
 /.bundle
+/vendor/bundle/
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -17,9 +18,22 @@
 !/log/.keep
 !/tmp/.keep
 
-/node_modules
-/yarn-error.log
-
+# Ignore Byebug command history file.
 .byebug_history
+
+# Ignore simplecov comannd file.
+coverage/
+
+# Ignore RSpec example file.
+/spec/examples.txt
+
+# Ingore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
 /public/packs
 /node_modules
