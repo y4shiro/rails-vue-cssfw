@@ -1,22 +1,19 @@
 <template>
-  <div id="app">
+  <div>
     <p>{{ message }}</p>
   </div>
 </template>
 
 <script>
-module.exports = {
+export default {
+  name: 'FooterComponent',
   data: function () {
     return {
-      message: "Hello Vue!"
+      message: "FooterComponent.vue"
     }
   }
 }
 </script>
 
 <style scoped>
-p {
-  font-size: 2em;
-  text-align: center;
-}
 </style>
