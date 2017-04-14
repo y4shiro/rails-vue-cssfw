@@ -1,20 +1,15 @@
 <template>
   <div>
-    <div>Title</div>
-    <div>Tab1</div>
-    <div>Tab2</div>
-    <div>Tab3</div>
-    <div>menu</div>
     <p>{{ message }}</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HeaderComponent',
+  name: 'Sidebar',
   data: function () {
     return {
-      message: "HeaderComponent.vue"
+      message: "Sidebar.vue"
     }
   }
 }

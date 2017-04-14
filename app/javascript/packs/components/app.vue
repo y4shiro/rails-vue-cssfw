@@ -2,6 +2,7 @@
   <div>
     <header-component></header-component>
     <Contents></Contents>
+    <Sidebar></Sidebar>
     <footer-component></footer-component>
   </div>
 </template>
@@ -10,6 +11,7 @@
 import HeaderComponent from './HeaderComponent.vue'
 import FooterComponent from './FooterComponent.vue'
 import Contents from './Contents.vue'
+import Sidebar from './Sidebar.vue'
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
   components: {
     HeaderComponent,
     FooterComponent,
-    Contents
+    Contents,
+    Sidebar
   }
 }
 </script>

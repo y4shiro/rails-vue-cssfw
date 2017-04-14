@@ -1,5 +1,7 @@
 <template>
   <div>
+    <div>copyright</div>
+    <div>links</div>
     <p>{{ message }}</p>
   </div>
 </template>
