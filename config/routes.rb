@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   get 'elementui', to: 'home#elementui'
   get 'vuematerial', to: 'home#vuematerial'
+  get 'vuetify', to: 'home#vuetify'
 end
